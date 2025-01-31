@@ -16,6 +16,7 @@ export default function Button({
 			<span className="relative incline-flex overflow-hidden font-general text-xs uppercase">
 				{title}
 			</span>
+			{rightIcon}
 		</button>
 	);
 }
